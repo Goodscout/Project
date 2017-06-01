@@ -1,0 +1,74 @@
+
+body {	
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-top: 50px;
+}
+.btn-nav {
+	background-color: #1c333d;
+	color: white;
+}
+.btn-like {
+	padding: 5px;
+	background-color: #1c333d;	
+	margin-top: 5px;
+}
+.gallery h1 {
+	padding: 20px;	
+	margin-top: -15px;
+}
+.btn-cat {
+	margin-bottom: 15px;
+	background-color: #1c333d;	
+}
+.title {
+	background-image: url("https://static.pexels.com/photos/37337/cat-silhouette-cats-silhouette-cat-s-eyes.jpg");
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	margin-top: 0;
+}
+.gallery , .cats-list , .contact .article {
+	background-color: black;
+	padding: 10px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+body:hover [class*="img-responsive"] {
+	opacity: 0.3;	
+}
+body [class*="img-responsive"]:hover {
+	opacity: 1;	
+	cursor: pointer;
+}
+.cats-list-table {
+	background-color: #d8d8d8;
+	color: black;
+}
+.cats-list .container {
+	padding-top: 20px;	
+}
+.cats-list-table thead {
+	background-color: #1c333d;
+	color: white;
+}
+.btn-submit {
+	margin-top: 10px;
+	margin-left: -15px;
+	background-color: #1c333d;
+}
+.contact .container {
+	padding-left: 30px;	
+}
+.article {
+	height: auto;
+	padding-top: 20px;
+}
+.article .container {
+	padding: 10px;	
+}
+.article img {
+	padding-bottom: 20px;	
+}
+
