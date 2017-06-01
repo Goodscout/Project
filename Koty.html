@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title>Catmaniac.pl</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet"href="style.css" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="Koty.css" type="text/css"/>
-    <title>Cats for rent</title>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>    
   </head>
   <body>
   	<section class="navigator">
@@ -24,9 +24,9 @@
 	    			</div>
 	      			<ul class="nav navbar-nav">
 				        <li class="active"><a href="#">Home</a></li>
-				        <li><a href="#">About us</a></li>
-				        <li><a href="#">Cats</a></li>
-				        <li><a href="#">Terms of rent</a></li>  
+				        <li><a href="#">Our cats</a></li>
+				        <li><a href="#">Terms of rent</a></li>
+				        <li><a href="#">Contact us</a></li>  
 	    			</ul>
 	      			<form class="navbar-form navbar-right" role="search">
 	        			<div class="form-group">
@@ -38,20 +38,68 @@
 		 	</div>
 		</nav>
 	</section>
-  	<section class="title text-center jumbotron">	
-  		<div class="title-container ">
-  			<h1>Rent a cat!</h1>
-  			<h1><small>Website for all catmaniacs:)</small></h1>
-  				<button class=" btn-like btn-primary">I like It!</button>
+  	<section class="cat-slides">	
+  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  			<ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			    <li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active example-1">
+				</div>
+				<div class="item example-2">        
+				</div>    
+				<div class="item example-3">        
+				</div>
+				<div class="item example-4">        
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+  				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+  				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  				<span class="sr-only">Next</span>
+			</a>
+  		</div>
+  		<div class="rent-title">
+  				<h1>Rent a cat!</h1> 	
   		</div>
   	</section>
-  	<section class="gallery text-center">
-  		<h1>Our Cats</h1>
+  	<section class="articles">
   		<div class="container">
+	  		<ul class="article-nav nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#home">Talking</a></li>
+				<li><a data-toggle="tab" href="#menu1"> Training</a></li>
+				<li><a data-toggle="tab" href="#menu2">Kneading</a></li>
+			</ul>
+			<div class="tab-content">
+	  			<div id="home" class="tab-pane fade in active">
+	    			<h3>Cat Talking</h3>
+	    			<p>Is your cat talking to you? Many cat lovers claim that their feline pets talk to them. They believe their cats can communicate vocally with them and tell them what they want, how they are feeling, and ask how their day has been! So, can domestic cats talk? Can the meows and trills that emanate from your kitty really be described as your cat talking to you?</p>
+	  			</div>
+	  			<div id="menu1" class="tab-pane fade">
+				    <h3>Cat training</h3>
+				    <p>Can you train cats? Yes. Cats can learn what they're not supposed to do. If your cat has developed a habit [of jumping up on the kitchen table], there are limited ways to prevent it.	You could use a spring-loaded toy, so when a cat jumps up on something, the toy goes bang and up in the air—the cat doesn't like that and jumps down. Another reasonably benign [strategy] is to use a child's water pistol. But make sure the cat doesn't realize you've got it. Cats don't forgive, and once they realize a person is causing them anxiety or hurt, they keep away.</p>
+	  			</div>
+	  			<div id="menu2" class="tab-pane fade">
+				    <h3>Why do cats knead us?</h3>
+				    <p> They are using behavior that they would use toward their mother—all the behavior they show toward us is derived in some way from the mother-kitten relationship. The kitten learns to raise its tail, rub on its mother, and knead and purr. Grooming is what mothers do back to kittens. So they're using bits of behavior already in their repertoire to communicate with us. There aren't very many behaviors—maybe half a dozen.</p>
+	  			</div>
+			</div>
+		</div>
+		<div class="button-container text-center">
 			<button class="btn-cat btn btn-primary" type="button">
 			  Free cats <span class="badge">788</span></button>
 			<button class="btn-cat btn btn-primary" type="button">
 			  Booked cats <span class="badge">345</span></button>
+		</div>
+  	</section>
+  	<section class="gallery text-center">
+  		<div class="container">
 	  		<div class="row">
 	  			<div class="col-xs-12 col-sm-6 col-md-3">
 	  				<img src="https://static.pexels.com/photos/129861/pexels-photo-129861.jpeg" alt="image" class="img-responsive img-thumbnail">
@@ -68,40 +116,28 @@
 	  		</div>
   		</div>
   	</section>
-	<section class="cats-list">
-		<div class="container">
-			<table class="cats-list-table table table-bordered">
-			    <thead>
-			      	<tr>
-						<th>Age</th>
-						<th>Color</th>
-						<th>Name</th>
-			       	</tr>
-				</thead>
-				<tbody>
-				    <tr>
-					 	<td>4</td>
-					    <td>Ginger</td>
-					    <td>Pimpek</td>
-				    </tr>
-				    <tr>
-					    <td>7</td>
-					    <td>Grey</td>
-					    <td>Filipek</td>
-				    </tr>
-				    <tr>
-				        <td>1</td>
-				        <td>White</td>
-				        <td>Marcyś</td>
-				    </tr>
-				    <tr>
-					    <td>4</td>
-					    <td>Ginger</td>
-					    <td>Pimpek</td>
-				    </tr>
-				</tbody>
-		 	</table>	
+	<section class="more-details">
+		<div class="container text-center">
+			<button type="button" class="btn-find btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Find out more!</button>
 		</div>
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4>More information</h4>
+					</div>
+					<div class="modal-body">
+						<h3>Cat size, health and weight</h3>
+						<p>Some domestic mixed breed cats or moggies may reach similar sizes and weights to some of the above mentioned cats, due to a natural propensity to being large and muscular, or possibly, having an ancestral history related to one of the larger breeds of cats. However, if you do not know your cat’s ancestral history, it is especially important to monitor their weight and activity levels. It is vital to ensure that if your cat is tipping the scale at the heavier end of the spectrum, this is due to their natural propensity to being muscular or tall; and not simply because they are overweight and getting too much food or not enough exercise.</p>
+					</div>
+					<div class="modal-footer">
+						<p>Find more here <a href="#">About cats</a></p>
+					</div>
+						<button type="button" class="btn-close btn btn-default" data-dismiss="modal">Close</button>	
+					</div>
+				</div>
+			</div>
+		</div>	
 	</section>
 	<section class="second-gallery">
 		<div class="container">
@@ -121,13 +157,6 @@
 	  		</div>
 	 	</div> 			
 	</section>
-	<div class="article media-group">
-		<div class="container">
-			<img src="http://placehold.it/100x100" class="article-img media-object" alt="cat-owner">
-	        <h4 class="media-heading"><a href="http://mentalfloss.com/article/51154/10-scientific-benefits-being-cat-owner">10 scientific benefits of being cat owner</h4></a>
-	        <p>Studies have shown that just watching cat videos on the internet can boost a person's energy and create positive emotions—so it's no surprise that actual cat ownership has a number of benefits. Here are a few...</p>
-        </div>
-    </div>
 	<section class="contact">
 		<div class="container">
 			<form class="form-horizontal">

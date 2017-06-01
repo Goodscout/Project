@@ -2,36 +2,69 @@
 body {	
 	color: white;
 	background-color: black;
-	padding: 10px;
 	padding-top: 50px;
 }
 .btn-nav {
-	background-color: #1c333d;
+	background-color: #bc3257;
 	color: white;
 }
-.btn-like {
-	padding: 5px;
-	background-color: #1c333d;	
-	margin-top: 5px;
+[class*="example"]{
+  min-height: 400px;
 }
-.gallery h1 {
-	padding: 20px;	
-	margin-top: -15px;
+.example-1 {
+	background-image: url("https://static.pexels.com/photos/22346/pexels-photo.jpg");	
+	background-size: cover;
+	background-position: center;	
 }
-.btn-cat {
-	margin-bottom: 15px;
-	background-color: #1c333d;	
-}
-.title {
-	background-image: url("https://static.pexels.com/photos/37337/cat-silhouette-cats-silhouette-cat-s-eyes.jpg");
+.example-2 {
+	background-image: url("https://static.pexels.com/photos/203885/pexels-photo-203885.jpeg");	
 	background-size: cover;
 	background-position: center;
-	height: auto;
-	margin-top: 0;
 }
-.gallery , .cats-list , .contact .article {
+.example-3 {
+	background-image: url("https://static.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg");	
+	background-size: cover;
+	background-position: center;
+}
+.example-4 {
+	background-image: url("https://static.pexels.com/photos/20306/pexels-photo.jpg");	
+	background-size: cover;
+	background-position: center;
+}
+.rent-title {
+	height: 70px;
+	background-color: #bc3257;
+	display: -webkit-flex;
+	display: flex;
+  	-webkit-align-items: center;
+    align-items: center;
+  	-webkit-justify-content: center;
+    justify-content: center;
+}
+.rent-title h1 {
+	text-shadow: 1px 1px 1px black;
+	padding-bottom: 10px;
+}
+
+.articles {
+	padding: 30px;
+}
+.articles li {
+	font-size: 15px;
+}
+.articles h3 {
+	color: pink;	
+}
+.button-container {
+	padding: 30px;
+	padding-bottom: 0;
+}
+.btn-cat {
+	background-color: #bc3257;
+}
+.gallery , .second-gallery , .more-details , .contact , .article {
 	background-color: black;
-	padding: 10px;
+	padding: 20px;
 	letter-spacing: 1px;
 	margin: 0;
 }
@@ -42,33 +75,17 @@ body [class*="img-responsive"]:hover {
 	opacity: 1;	
 	cursor: pointer;
 }
-.cats-list-table {
-	background-color: #d8d8d8;
-	color: black;
+.more-details {
+	color: black;	
 }
-.cats-list .container {
-	padding-top: 20px;	
-}
-.cats-list-table thead {
-	background-color: #1c333d;
-	color: white;
+.btn-close , .btn-find {
+	background-color: #bc3257;
 }
 .btn-submit {
 	margin-top: 10px;
 	margin-left: -15px;
-	background-color: #1c333d;
+	background-color: #bc3257;
 }
 .contact .container {
 	padding-left: 30px;	
 }
-.article {
-	height: auto;
-	padding-top: 20px;
-}
-.article .container {
-	padding: 10px;	
-}
-.article img {
-	padding-bottom: 20px;	
-}
-
