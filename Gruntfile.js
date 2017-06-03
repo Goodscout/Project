@@ -2,16 +2,16 @@ module.exports = function(grunt) {
   // Project configuration.
   	grunt.initConfig({
 	  	sass: {
-	      	options: {
+	    	options: {
 	        	sourceMap: true
-	      	},
-	      	dist: {
-	        	files: {
+			},
+			dist: {
+				files: {
 	        		'css/main.css': 'sass/main.sass'
-	        	}
-	      	}
-	    }
-	  	imagemin: {
+				}
+			}
+		}
+		imagemin: {
 	    	dynamic: {
 	        	files: [{
 		            expand: true,
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 		            src: ['**/*.{png,jpg,gif}'],
 		            dest: 'images/build/'
 	        	}]
-	    	}
+			}
 		}
 		watch: {
 			scripts: {
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 	      			server: {
 	        			baseDir: "./"
 	      			}	
-	    		}
+				}
 			}
 		}
 	});
