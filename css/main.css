@@ -1,0 +1,216 @@
+body {
+  letter-spacing: 1px;
+  font-family: 'Muli', sans-serif; }
+
+.navi {
+  text-transform: uppercase; }
+
+.nav-active {
+  background-color: rgba(54, 132, 70, 0.7); }
+
+.my-jumbotron {
+  background-image: url("https://static.pexels.com/photos/37029/pexels-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+  justify-content: flex-end; }
+
+.my-container {
+  background-color: rgba(81, 81, 81, 0.3);
+  color: white;
+  text-align: center;
+  padding: 40px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+  .my-container h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+
+.example-1, .example-2, .example-3 {
+  background-color: rgba(224, 40, 40, 0.7);
+  color: white;
+  text-align: center;
+  padding: 4px;
+  height: auto;
+  margin: 0; }
+
+.slides h3 {
+  font-size: 25px; }
+
+article {
+  padding: 30px;
+  height: auto; }
+
+.article-col p, .article-col h3 {
+  color: #555656; }
+
+.article-col {
+  height: auto;
+  padding: 15px; }
+  .article-col h3 {
+    font-weight: bold;
+    text-transform: uppercase; }
+
+[class*="pic-"] {
+  height: auto;
+  width: 100%; }
+
+.header {
+  background-color: rgba(224, 40, 40, 0.7);
+  color: white;
+  text-transform: uppercase; }
+  .header h3 {
+    font-size: 25px; }
+
+.gallery h4 {
+  font-size: 25px; }
+
+.img-1 {
+  background-image: url("http://cdn19.se.smcloud.net/t/photos/t/331384/jelonek-blotny_20325429.jpg"); }
+
+.img-2 {
+  background-image: url("https://www.wykop.pl/cdn/c3201142/comment_GWAu21uuptcM8AUUUNgv1FU3rt0Yz0Co.jpg"); }
+
+.img-3 {
+  background-image: url("http://kasiusia.blogujaca.pl/files/2013/07/2z85992.jpg"); }
+
+.img-4 {
+  background-image: url("http://s1.static.geekweek.pl/cms/2012/05/2012_05_funny-alpacas-with-awesome-amazing-hilarious-hair-16-589x490.jpg"); }
+
+.img-5 {
+  background-image: url("http://cdn11.se.smcloud.net/t/photos/t/362466/chce-zmienic-sie-w-dziobaka_22716463.jpg"); }
+
+.img-6 {
+  background-image: url("http://www.tapeciarnia.pl/tapety/normalne/tapeta-leniwiec-przytulony-do-drzewa.jpg"); }
+
+.info-btn {
+  background-color: rgba(54, 132, 70, 0.7);
+  border: none;
+  font-size: 20px; }
+
+.element {
+  height: 400px;
+  margin: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  -ms-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-justify-content: flex-top;
+  -moz-justify-content: flex-top;
+  -ms-justify-content: flex-top;
+  justify-content: flex-top; }
+  .element .img-container {
+    text-align: center;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(81, 81, 81, 0.3); }
+  .element p {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold; }
+  .element .btn-heart {
+    font-size: 35px; }
+
+.footer {
+  height: auto;
+  padding-bottom: 15px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #DDDDDD; }
+  .footer p {
+    margin: 0; }
+  .footer img {
+    max-width: 100%; }
+  .footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase; }
+  .footer ul {
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 10px; }
+  .footer a {
+    color: #78828D; }
+
+.news-box .info-btn {
+  border: medium none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px;
+  width: 150px;
+  margin-top: 10px; }
+
+.social {
+  background-color: rgba(224, 40, 40, 0.7);
+  padding: 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center; }
+
+.social li {
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  margin: 5px;
+  width: 36px; }
+
+.footer-bottom {
+  background-color: rgba(81, 81, 81, 0.3);
+  border-top: 1px solid #DDDDDD;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .footer-bottom p {
+    text-align: center;
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */

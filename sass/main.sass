@@ -1,0 +1,197 @@
+$project-red: rgba(224, 40, 40, 0.7)
+$project-grey: rgba(81, 81, 81, 0.3)
+$btn-color: rgba(54, 132, 70, 0.7)
+=border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius:    $radius
+	-ms-border-radius:     $radius
+	border-radius:         $radius
+=justify-content($justify) 
+	-webkit-justify-content: $justify
+	-moz-justify-content: $justify
+	-ms-justify-content: $justify
+	justify-content: $justify
+=align-items($align) 
+	-webkit-align-items: $align
+	-moz-align-items: $align
+	-ms-align-items: $align
+	align-items: $align
+
+body 
+	letter-spacing: 1px
+	font-family: 'Muli', sans-serif
+
+.navi 
+	text-transform: uppercase
+
+.nav-active 
+	background-color: rgba(54, 132, 70, 0.7)	
+
+.my-jumbotron 
+	background-image: url("https://static.pexels.com/photos/37029/pexels-photo.jpg")
+	background-size: cover
+	background-position: center
+	height: 550px
+	display: -webkit-flex
+	display: flex
+	+align-items(flex-end)
+	+justify-content(flex-end)
+
+.my-container 
+	background-color: $project-grey
+	color: white
+	text-align: center
+	padding: 40px
+	+border-radius(10px)
+	h1 
+		font-size: 30px
+		text-transform: uppercase
+
+.example-1 , .example-2 , .example-3 
+	background-color: $project-red
+	color: white
+	text-align: center
+	padding: 4px
+	height: auto
+	margin: 0
+
+.slides h3 
+	font-size: 25px
+
+article 
+	padding: 30px
+	height: auto
+	
+.article-col p, .article-col h3 
+	color: #555656
+
+.article-col 
+	height: auto
+	padding: 15px
+	h3 
+		font-weight: bold
+		text-transform: uppercase
+[class*="pic-"] 
+	height: auto
+	width: 100%
+
+.header 
+	background-color: $project-red
+	color: white
+	text-transform: uppercase
+	h3 
+		font-size: 25px	
+
+.gallery h4 
+	font-size: 25px	
+
+.img-1 
+	background-image: url("http://cdn19.se.smcloud.net/t/photos/t/331384/jelonek-blotny_20325429.jpg")
+.img-2 
+	background-image: url("https://www.wykop.pl/cdn/c3201142/comment_GWAu21uuptcM8AUUUNgv1FU3rt0Yz0Co.jpg")
+.img-3 
+	background-image: url("http://kasiusia.blogujaca.pl/files/2013/07/2z85992.jpg")
+.img-4 
+	background-image: url("http://s1.static.geekweek.pl/cms/2012/05/2012_05_funny-alpacas-with-awesome-amazing-hilarious-hair-16-589x490.jpg")
+.img-5 
+	background-image: url("http://cdn11.se.smcloud.net/t/photos/t/362466/chce-zmienic-sie-w-dziobaka_22716463.jpg")
+.img-6 
+	background-image: url("http://www.tapeciarnia.pl/tapety/normalne/tapeta-leniwiec-przytulony-do-drzewa.jpg")
+
+.info-btn 
+	background-color: rgba(54, 132, 70, 0.7)
+	border: none	
+	font-size: 20px
+
+.element 
+	height: 400px
+	margin: 5px
+	+border-radius(5px)
+	background-position: center
+	background-size: cover
+	display: -webkit-flex
+	display: flex
+	+align-items(flex-end)
+	+justify-content(flex-top)
+	.img-container 
+		text-align: center
+		padding: 20px
+		+border-radius(10px)
+		background-color: $project-grey
+	p 
+		color: white
+		font-size: 35px
+		text-align: center
+		font-weight: bold
+
+	.btn-heart 
+		font-size: 35px	
+
+.footer 
+	height: auto
+	padding-bottom: 15px
+	position: relative
+	width: 100%
+	border-bottom: 1px solid #CCCCCC
+	border-top: 1px solid #DDDDDD
+	p 
+		margin: 0
+	img 
+		max-width: 100%
+	h3 
+		border-bottom: 1px solid #BAC1C8
+		color: #54697E
+		font-size: 18px
+		font-weight: 600
+		line-height: 27px
+		padding: 40px 0 10px
+		text-transform: uppercase
+	ul 
+		font-size: 15px
+		list-style-type: none
+		margin-left: 0
+		padding-left: 0
+		margin-top: 10px	
+	a 
+		color: #78828D
+
+.news-box .info-btn 
+	border: medium none
+	+border-radius(10px)
+	display: inline-block
+	height: 40px
+	font-size: 15px
+	color: #fff
+	padding: 10px
+	width: 150px
+	margin-top: 10px
+
+.social 
+	background-color: $project-red
+	padding: 10px
+	display: -webkit-flex
+	display: flex
+	+align-items(center)
+	+justify-content(center)
+
+.social li 
+	background-color: #fff
+	font-size: 20px
+	text-align: center
+	+border-radius(50%)
+	float: left
+	height: 36px
+	line-height: 36px
+	margin: 5px
+	width: 36px
+
+.footer-bottom 
+	background-color: $project-grey
+	border-top: 1px solid #DDDDDD
+	padding-top: 10px
+	padding-bottom: 10px
+	p 
+		text-align: center
+		color: white
+
+
